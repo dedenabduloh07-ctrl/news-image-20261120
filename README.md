@@ -51,5 +51,6 @@ output. The page itself was drawn offline with Pillow at build time
 ## Verification
 
 - `entry.png`: 1024×1024, 586,814 bytes, under the 1 MiB limit.
+  sha256 `7fd130305b7472142c79922bac0bfe538127304a4957a8ce681f63560b377abb`.
 - Two grader-style runs (`python3 -P -s main.py` into a clean directory)
   produce output byte-identical to the committed `entry.png`.
